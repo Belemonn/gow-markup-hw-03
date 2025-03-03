@@ -30,13 +30,15 @@ body {
     line-height: 1.5em;
     letter-spacing: 0.02em;
     background-color: #ffffff;
+    max-width: 1440px;
 }
 /* Спільний контейнер */
 .container {
     max-width: 1440px;
-    margin: 0 auto;
-    /* margin-right: 141px; */
-    margin-left: 141px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    padding-left: 156px;
+    padding-right: 156px;
 }
 
 /* Шапка сторінки */
@@ -44,6 +46,14 @@ body {
     border-bottom: 1px solid #e7e9fc;
     padding-top: 24px;
     padding-bottom: 24px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+
+.page-header .header-container {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -70,9 +80,9 @@ body {
 
 .menu-list {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
+    /* align-items: flex-start; */
+    /* justify-content: flex-start; */
+    /* flex-direction: row; */
     gap: 40px;
     padding-left: 76px;
 }
@@ -91,8 +101,6 @@ body {
 }
 
 .communication {
-    display: flex;
-    flex-direction: row-reverse;
     padding-left: 332px;
     font-style: normal;
 }
@@ -100,11 +108,14 @@ body {
 .com-list {
     display: flex;
     gap: 40px;
+    flex-wrap: nowrap;
 }
 
-.com-item .com-link {
+.com-link {
     display: flex;
-    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
+.com-item .com-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -117,3 +128,66 @@ body {
     color: #404bbf;
 }
 
+/* Головний заголовок сторінки */
+.main-image {
+    background-color: #2e2f42;
+    height: 600px;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    padding-top: 188px;
+    /* padding-right: 156px; */
+    width: 496px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.service {
+   margin-left: 450px;
+   margin-top: 48px;
+   padding: 16px 32px;
+   background-color: #4d5ae5;
+   color: #fff;
+   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+   font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.adventages {
+    margin-top: 120px;
+    padding-bottom: 120px;
+}
+
+.adventages-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.adventages-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
