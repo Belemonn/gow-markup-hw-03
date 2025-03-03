@@ -1,23 +1,14 @@
-/* Скиданання стилів за замовчуванням */
-body {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 1.5em;
-    background-color: #ffffff;
-    letter-spacing: 0.02em;
-    font-weight: 400;
-}
 
+/* Обнулення стилів */
 h1,h2,h3,h4,h5,h6 {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
 }
 
 ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
     list-style: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 p {
@@ -28,16 +19,35 @@ p {
     color: #434455;
 }
 
+a {
+    text-decoration: none;
+}
+/* Загальні стилі */
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    background-color: #ffffff;
+}
+/* Спільний контейнер */
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    /* margin-right: 141px; */
+    margin-left: 141px;
+}
 
- /* Header та навігаційне меню */
+/* Шапка сторінки */
 .page-header {
-    display: flex;
-    padding-left: 156px;
     border-bottom: 1px solid #e7e9fc;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .logo {
-    text-decoration: none;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
@@ -52,20 +62,22 @@ p {
 
 .menu {
     display: flex;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
 }
 
 
-.menu .menu-list {
+.menu-list {
     display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
     gap: 40px;
-    margin-left: 76px;
+    padding-left: 76px;
 }
 
 .menu-item .menu-link {
-    text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -78,15 +90,21 @@ p {
     color: #404bbf;
 }
 
-.communication .com-list {
+.communication {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 332px;
     font-style: normal;
-    margin-left: 332px;
+}
+
+.com-list {
     display: flex;
     gap: 40px;
 }
 
 .com-item .com-link {
-    text-decoration: none;
+    display: flex;
+    flex-direction: row-reverse;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -97,11 +115,5 @@ p {
 .com-item .com-link:hover,
 .com-item .com-link:focus {
     color: #404bbf;
-}
-
-.main-title {
-    display: flex;
-    align-items: center;
-    flex-direction: inherit;
 }
 
