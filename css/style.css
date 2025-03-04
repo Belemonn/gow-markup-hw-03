@@ -60,6 +60,11 @@ h3 {
     color: #2e2f42;
 }
 
+img {
+    display: block;
+}
+
+
 /* Спільний контейнер */
 .container {
     max-width: 1128px;
@@ -191,8 +196,9 @@ h3 {
 
 /* Друга секція */
 .adventages {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .adventages-list {
@@ -207,3 +213,64 @@ h3 {
 }
 
 /* Треття секція */
+.our-team {
+    background-color: #f4f4fd;
+    min-height: 100vh;
+    padding-top: 120px;
+}
+
+.team-title {
+    padding-bottom: 72px;
+}
+
+.team-card {
+    background-color: #ffffff;
+    height: 380px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    border-radius: 0 0 4px 4px;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.card-title-one {
+    padding-top: 32px;
+    padding-left: 65px;
+    padding-bottom: 8px;
+}
+
+.card-subtitle-one {
+    padding-left: 68px;
+}
+
+.card-title-two {
+    padding-top: 32px;
+    padding-left: 88px;
+    padding-bottom: 8px;
+}
+
+.card-subtitle-two {
+    padding-left: 60px;
+}
+
+.card-title-thre {
+    padding-top: 32px;
+    padding-bottom: 8px;
+    padding-left: 67px;
+}
+
+.card-subtitle-thre {
+    padding-left: 94.5px;
+}
+
+.card-title-four {
+    padding-top: 32px;
+    padding-bottom: 8px;
+    padding-left: 68.5px;
+}
+
+.card-subtitle-four {
+    padding-left: 89.5px;
+}
