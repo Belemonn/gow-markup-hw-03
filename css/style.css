@@ -17,6 +17,7 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin: 0;
 }
 
 a {
@@ -39,6 +40,7 @@ h1 {
     line-height: 1.07143;
     letter-spacing: 0.02em;
     color: #ffffff;
+    text-align: center;
 }
 
 h2 {
@@ -70,8 +72,8 @@ h3 {
 /* Шапка сторінки */
 .page-header  {
     border-bottom: 1px solid #e7e9fc;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px; */
+    /* padding-bottom: 24px; */
     /* display: flex; */
     /* align-items: center; */
     /* justify-content: space-between; */
@@ -106,6 +108,8 @@ h3 {
     align-items: flex-start;
     justify-content: space-between;
     flex-direction: row;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .menu-list {
@@ -136,7 +140,7 @@ h3 {
 /* Зв'язок */
 .communication {
     display: flex;
-    padding-left: 280px;
+    padding-left: 274px;
 }
 
 .com-list {
@@ -157,3 +161,49 @@ h3 {
 .com-item .com-link:focus {
     color: #404bbf;
 }
+
+/* Перша секція Заголовок */
+.main-image {
+    background-color: #2e2f42;
+    min-height: 100vh;
+}
+
+.main-title {
+    padding-top: 188px;
+}
+
+/* Кнопка */
+.service {
+    margin-top: 48px;
+    margin-left: 494.5px;
+    padding: 16px 32px;
+    background-color: #4d5ae5;
+    color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.service:hover,
+.service:focus {
+    background-color: #404bbf;
+}
+
+/* Друга секція */
+.adventages {
+    min-height: 100vh;
+    padding-top: 120px;
+}
+
+.adventages-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    /* width: calc((100% - 72px) / 4); */
+}
+
+.adventages-title {
+    margin-bottom: 8px;
+}
+
+/* Треття секція */
