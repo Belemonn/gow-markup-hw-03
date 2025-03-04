@@ -20,9 +20,6 @@ p {
     margin: 0;
 }
 
-a {
-    text-decoration: none;
-}
 /* Загальні стилі */
 body {
     font-family: "Roboto", sans-serif;
@@ -64,6 +61,9 @@ img {
     display: block;
 }
 
+a {
+    text-decoration: none;
+}
 
 /* Спільний контейнер */
 .container {
@@ -74,25 +74,21 @@ img {
     padding-right: 15px;
 }
 
-/* Шапка сторінки */
-.page-header  {
-    border-bottom: 1px solid #e7e9fc;
-    /* padding-top: 24px; */
-    /* padding-bottom: 24px; */
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: space-between; */
-}
-
-.page-header .header-container {
+/* Шапка Головної сторінки */
+.page-header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-direction: row;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 /* Логотип */
 .logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -100,7 +96,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display: flex;
 }
 
 .logo-studio {
@@ -111,22 +106,18 @@ img {
 .menu {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-direction: row;
-    padding-top: 24px;
+    gap: 76px;
     padding-bottom: 24px;
+    padding-top: 24px;
 }
 
-.menu-list {
-    display: flex;
-    gap: 40px;
-    padding-left: 76px;
-}
-
-.menu-list .menu-item {
+.menu-list  {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 40px;
 }
 
 .menu-item .menu-link {
@@ -143,134 +134,31 @@ img {
 }
 
 /* Зв'язок */
-.communication {
+.communication  {
     display: flex;
-    padding-left: 274px;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 289px;
+    padding-bottom: 24px;
+    padding-top: 24px;
 }
 
-.com-list {
+.com-list  {
     display: flex;
+    align-items: center;
     gap: 40px;
 }
 
-.com-item .com-link {
+.com-link {
     font-weight: 400;
     font-size: 16px;
+    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal;
 }
 
 .com-item .com-link:hover,
 .com-item .com-link:focus {
     color: #404bbf;
-}
-
-/* Перша секція Заголовок */
-.main-image {
-    background-color: #2e2f42;
-    min-height: 100vh;
-}
-
-.main-title {
-    padding-top: 188px;
-}
-
-/* Кнопка */
-.service {
-    margin-top: 48px;
-    margin-left: 494.5px;
-    padding: 16px 32px;
-    background-color: #4d5ae5;
-    color: #ffffff;
-    border-radius: 4px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    cursor: pointer;
-}
-
-.service:hover,
-.service:focus {
-    background-color: #404bbf;
-}
-
-/* Друга секція */
-.adventages {
-    /* min-height: 100vh; */
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.adventages-list {
-    display: flex;
-    justify-content: space-between;
-    gap: 24px;
-    /* width: calc((100% - 72px) / 4); */
-}
-
-.adventages-title {
-    margin-bottom: 8px;
-}
-
-/* Треття секція */
-.our-team {
-    background-color: #f4f4fd;
-    min-height: 100vh;
-    padding-top: 120px;
-}
-
-.team-title {
-    padding-bottom: 72px;
-}
-
-.team-card {
-    background-color: #ffffff;
-    height: 380px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    border-radius: 0 0 4px 4px;
-}
-
-.team-list {
-    display: flex;
-    gap: 24px;
-}
-
-.card-title-one {
-    padding-top: 32px;
-    padding-left: 65px;
-    padding-bottom: 8px;
-}
-
-.card-subtitle-one {
-    padding-left: 68px;
-}
-
-.card-title-two {
-    padding-top: 32px;
-    padding-left: 88px;
-    padding-bottom: 8px;
-}
-
-.card-subtitle-two {
-    padding-left: 60px;
-}
-
-.card-title-thre {
-    padding-top: 32px;
-    padding-bottom: 8px;
-    padding-left: 67px;
-}
-
-.card-subtitle-thre {
-    padding-left: 94.5px;
-}
-
-.card-title-four {
-    padding-top: 32px;
-    padding-bottom: 8px;
-    padding-left: 68.5px;
-}
-
-.card-subtitle-four {
-    padding-left: 89.5px;
 }
