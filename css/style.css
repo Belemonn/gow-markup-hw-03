@@ -160,10 +160,27 @@ a {
 /* Перша секція - 1 */
 .hero-image {
     background-color: #2e2f42;
+    padding-bottom: 292px;
 }
 
+
+
 .hero-title {
+    max-width: 496px;
+    margin-left: 331px;
     padding-top: 188px;
+}
+
+.service {
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: #4d5ae5;
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 494.5px;
 }
 
 
