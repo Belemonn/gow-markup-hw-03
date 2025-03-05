@@ -6,7 +6,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 ul {
-    list-style: none;
+    list-style-type: none;
     margin: 0;
     padding-left: 0;
 }
@@ -29,6 +29,7 @@ body {
     letter-spacing: 0.02em;
     background-color: #ffffff;
     max-width: 1440px;
+    margin: 0;
 }
 
 h1 {
@@ -59,6 +60,7 @@ h3 {
 
 img {
     display: block;
+    max-width: 100%;
 }
 
 a {
@@ -68,97 +70,18 @@ a {
 /* Спільний контейнер */
 .container {
     max-width: 1128px;
-    margin-left: 141px;
-    margin-right: 141px;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    width: 100%;
+    display: flex;
 }
 
 /* Шапка Головної сторінки */
 .page-header {
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
     border-bottom: 1px solid #e7e9fc;
-}
-
-/* Логотип */
-.logo {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-
-.logo-studio {
-    color: #2e2f42;
-}
-
-/* Меню навігації */
-.menu {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 76px;
-    padding-bottom: 24px;
     padding-top: 24px;
-}
-
-.menu-list  {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 40px;
-}
-
-.menu-item .menu-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.menu-item .menu-link:hover,
-.menu-item .menu-link:focus {
-    color: #404bbf;
-}
-
-/* Зв'язок */
-.communication  {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-left: 289px;
     padding-bottom: 24px;
-    padding-top: 24px;
-}
-
-.com-list  {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
-
-.com-link {
-    font-weight: 400;
-    font-size: 16px;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.com-item .com-link:hover,
-.com-item .com-link:focus {
-    color: #404bbf;
 }
