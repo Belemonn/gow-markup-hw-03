@@ -69,7 +69,7 @@ a {
 
 /* Спільний контейнер */
 .container {
-    max-width: 1128px;
+    max-width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -82,6 +82,82 @@ a {
 .page-header {
     display: flex;
     border-bottom: 1px solid #e7e9fc;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
 }
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-studio {
+    color: #2e2f42;
+}
+
+/* Меню навагації */
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.menu-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+    padding-left: 76px;
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42
+}
+
+.menu-item .menu-link:hover,
+.menu-item .menu-link:focus {
+    color: #404bbf;
+}
+
+/* Зв'язок */
+.communication {
+    display: flex;
+    padding-left: 332px;
+}
+
+.com-list {
+    display: flex;
+    gap: 40px;
+}
+
+.com-link {
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.com-item .com-link:hover,
+.com-item .com-link:focus {
+    color: #404bbf;
+}
+
+/* Перша секція - 1 */
+.hero-image {
+    background-color: #2e2f42;
+    height: 600px;
+}
+
+
