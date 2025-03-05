@@ -75,7 +75,6 @@ a {
     padding-left: 15px;
     padding-right: 15px;
     width: 100%;
-    display: flex;
 }
 
 /* Шапка Головної сторінки */
@@ -97,6 +96,10 @@ a {
 
 .logo-studio {
     color: #2e2f42;
+}
+
+.header-container {
+    display: flex;
 }
 
 /* Меню навагації */
@@ -157,7 +160,10 @@ a {
 /* Перша секція - 1 */
 .hero-image {
     background-color: #2e2f42;
-    height: 600px;
+}
+
+.hero-title {
+    padding-top: 188px;
 }
 
 
