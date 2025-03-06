@@ -215,6 +215,7 @@ a {
 /* Треття секція - 3 */
 .team {
   padding-top: 120px;
+  padding-bottom: 120px;
   max-height: 100vh;
   background-color: #f4f4fd;
 }
@@ -233,12 +234,21 @@ a {
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  padding-bottom: 32px;
 }
 
 .team-name {
-  text-align: center;
+  /* text-align: center; */
+  padding-top: 32px;
 }
 
 .team-text {
-  text-align: center;
+  /* text-align: center; */
+  padding-top: 8px;
+}
+
+/* Четверта секція - 4 */
+.portfolio {
+  padding-top: 120px;
+  max-height: 100vh;
 }
