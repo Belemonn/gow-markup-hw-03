@@ -1,186 +1,244 @@
-
 /* Обнулення стилів */
-h1,h2,h3,h4,h5,h6 {
-    margin: 0;
-    padding: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding-left: 0;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin: 0;
 }
 
 /* Загальні стилі */
 body {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5em;
-    letter-spacing: 0.02em;
-    background-color: #ffffff;
-    max-width: 1440px;
-    margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  background-color: #ffffff;
+  max-width: 1440px;
+  margin: 0;
 }
 
 h1 {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07143;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-    text-align: center;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
 }
 
 h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11111;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 
 h3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 img {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* Спільний контейнер */
 .container {
-    max-width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 100%;
+  max-width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
 }
 
 /* Шапка Головної сторінки */
 .page-header {
-    display: flex;
-    border-bottom: 1px solid #e7e9fc;
-    padding: 24px 0;
+  display: flex;
+  border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
 
 .logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .logo-studio {
-    color: #2e2f42;
+  color: #2e2f42;
 }
 
 .header-container {
-    display: flex;
+  display: flex;
 }
 
 /* Меню навагації */
 .menu {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
 }
 
 .menu-list {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 40px;
-    padding-left: 76px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+  padding-left: 76px;
 }
 
 .menu-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .menu-item .menu-link:hover,
 .menu-item .menu-link:focus {
-    color: #404bbf;
+  color: #404bbf;
 }
 
 /* Зв'язок */
 .communication {
-    display: flex;
-    padding-left: 332px;
+  display: flex;
+  padding-left: 332px;
 }
 
 .com-list {
-    display: flex;
-    gap: 40px;
+  display: flex;
+  gap: 40px;
 }
 
 .com-link {
-    font-weight: 400;
-    font-size: 16px;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .com-item .com-link:hover,
 .com-item .com-link:focus {
-    color: #404bbf;
+  color: #404bbf;
 }
 
 /* Перша секція - 1 */
 .hero-image {
-    background-color: #2e2f42;
-    padding-bottom: 292px;
+  background-color: #2e2f42;
+  padding-bottom: 292px;
+  max-height: 100vh;
 }
 
-
-
 .hero-title {
-    max-width: 496px;
-    margin-left: 331px;
-    padding-top: 188px;
+  max-width: 496px;
+  margin: 0 auto;
+  padding-top: 188px;
 }
 
 .service {
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    border-radius: 4px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background-color: #4d5ae5;
-    color: #ffffff;
-    cursor: pointer;
-    margin-left: 494.5px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+  margin-left: 479.5px;
+  margin-top: 48px;
 }
 
+.service:hover,
+.service:focus {
+  background-color: #404bbf;
+}
 
+/* Друга секція - 2 */
+.visualy-hidden {
+  display: none;
+}
+
+.adventages {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  max-height: 100vh;
+}
+
+.adventages-list {
+  display: flex;
+  gap: 24px;
+}
+
+.adventages-item {
+  width: calc((100% - 72) / 4);
+}
+
+/* Треття секція - 3 */
+.team {
+  padding-top: 120px;
+  max-height: 100vh;
+  background-color: #f4f4fd;
+}
+
+.team-title {
+  padding-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-item {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.team-name {
+  text-align: center;
+}
+
+.team-text {
+  text-align: center;
+}
