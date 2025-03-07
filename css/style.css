@@ -164,8 +164,7 @@ a {
 /* Перша секція - 1 */
 .hero-image {
   background-color: #2e2f42;
-  padding-bottom: 292px;
-  max-height: 100vh;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -193,14 +192,13 @@ a {
 }
 
 /* Друга секція - 2 */
-.visualy-hidden {
+.visually-hidden {
   display: none;
 }
 
 .adventages {
   padding-top: 120px;
   padding-bottom: 120px;
-  max-height: 100vh;
 }
 
 .adventages-list {
@@ -216,7 +214,6 @@ a {
 .team {
   padding-top: 120px;
   padding-bottom: 120px;
-  max-height: 100vh;
   background-color: #f4f4fd;
 }
 
@@ -238,17 +235,60 @@ a {
 }
 
 .team-name {
-  /* text-align: center; */
+  text-align: center;
   padding-top: 32px;
 }
 
 .team-text {
-  /* text-align: center; */
+  text-align: center;
   padding-top: 8px;
 }
 
 /* Четверта секція - 4 */
 .portfolio {
   padding-top: 120px;
-  max-height: 100vh;
+  padding-bottom: 120px;
+}
+
+.portfolio-title {
+  padding-bottom: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.portfolio-item {
+  width: calc((129% - 24px) / 4);
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+}
+
+.portfolio-name {
+  padding-top: 32px;
+  padding-left: 16px;
+  padding-bottom: 8px;
+}
+
+.portfolio-text {
+  padding-bottom: 32px;
+  padding-left: 16px;
+}
+
+/* Футер */
+.page-footer {
+  background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.logo-footer {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
 }
