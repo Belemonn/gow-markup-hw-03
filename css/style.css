@@ -120,7 +120,6 @@ a {
   justify-content: flex-start;
   flex-direction: row;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .menu-link {
@@ -129,6 +128,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .menu-item .menu-link:hover,
@@ -205,7 +205,6 @@ a {
   margin: -1px;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
   border: 0;
 }
 
@@ -220,7 +219,7 @@ a {
 }
 
 .adventages-item {
-  width: calc((100% - 72) / 4);
+  flex-basis: calc((100% - 72) / 4);
 }
 
 .adventages-title {
