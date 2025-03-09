@@ -203,9 +203,11 @@ a {
   height: 1px;
   padding: 0;
   margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
   border: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .adventages {
@@ -219,7 +221,7 @@ a {
 }
 
 .adventages-item {
-  flex-basis: calc((100% - 72) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .adventages-title {
@@ -254,8 +256,9 @@ a {
   padding: 32px 0;
 }
 
-.team-name {
+.team-item .team-name {
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-text {
